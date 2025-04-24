@@ -1,7 +1,8 @@
 # Placeholder for BugSlayer tool code
 #!/usr/bin/env python3 """ BugSlayer v1.1 - Complete OWASP Top10 Automated Scanner with Animation, Proxy/User-Agent Rotation, Reporting """ import argparse import subprocess import requests import concurrent.futures import time import itertools import sys import random import json from urllib.parse import urlparse from colorama import init, Fore, Style import pyfiglet
 
-Initialize colorama
+from colorama import init
+init()
 
 init(autoreset=True)
 
